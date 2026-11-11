@@ -161,3 +161,4 @@ npm test
 
 - **AI Translation Notice:** Amharic and Tigrinya strings are currently AI-assisted drafts. Native agricultural speakers must review technical crop terms before real-world deployment.
 - **Environment Secrets:** Never commit `server/.env`. Use `.env.example` as a template for local development and CI/CD secret managers for deployment.
+  stay tunned up to  the end
