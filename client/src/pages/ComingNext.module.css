@@ -1,0 +1,3 @@
+.wrap { display: grid; gap: 1.25rem; justify-items: start; padding-block: 4rem; }
+.title { font-size: var(--text-h2); }
+.text { max-width: 55ch; color: var(--ink-soft); }

@@ -1,0 +1,85 @@
+.wrap {
+  padding-block: clamp(2rem, 3vw, 4rem);
+}
+
+.welcomeCard {
+  background: linear-gradient(135deg, var(--forest), var(--forest-deep));
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 2.5rem;
+  box-shadow: var(--shadow-float);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.welcomeText h1 {
+  color: #fff;
+  font-size: var(--text-h2);
+  margin-bottom: 0.5rem;
+}
+
+.welcomeText p {
+  color: var(--leaf-soft);
+  font-size: var(--text-md);
+}
+
+.badge {
+  display: inline-block;
+  background: var(--leaf);
+  color: #fff;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25rem;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-float);
+}
+
+.cardIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  background: var(--mint);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardTitle {
+  font-size: var(--text-h3);
+  color: var(--forest);
+  margin-bottom: 0.35rem;
+}
+
+.cardText {
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+}
